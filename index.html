@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portada_calendari</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chivo:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            font-family: chivo, sans-serif;
+            background-color: #000000;
+            color: white;
+            text-align: center;
+        }
+a{
+    text-decoration: none;
+    color:white;
+
+}
+.calendari {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); 
+    grid-template-rows: repeat(2, 200px); 
+    gap: 5px;
+    padding: 10px;
+}
+a #gener{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 2px 2px 4px #000;
+    border-radius: 10px;
+}
+#gener .mes{
+    background-image: linear-gradient(to bottom, #b300ff, #ff007b);
+}
+#febrer .mes{
+    background-image: linear-gradient(to bottom, #00eeff, #37ff00);
+}
+#març .mes{
+    background-image: linear-gradient(to bottom, #ffff00, #00911b);
+}
+#abril .mes{
+    background-image: linear-gradient(to bottom, #ff00ae, #cc00ff);
+}
+#maig .mes{
+    background-image: linear-gradient(to bottom, #9000ff, #00ffc3);
+}
+#juny .mes{
+    background-image: linear-gradient(to bottom, #ff8800, #e600ff);
+}
+#juliol .mes{
+    background-image: linear-gradient(to bottom, #fff700, #ff00bf);
+}
+#agost .mes{
+    background-image: linear-gradient(to bottom, #fbff00, #ff1500);
+}
+#setembre .mes{
+    background-image: linear-gradient(to bottom, #00f2ff, #e100ff);
+}
+#octubre .mes{
+    background-image: linear-gradient(to bottom, #ffff00, #00ffdd);
+}
+#novembre .mes{
+    background-image: linear-gradient(to bottom, #00aaff, #48ff00);
+}
+#desembre .mes{
+    background-image: linear-gradient(to bottom, #00d5ff, #a200ff);
+}
+a .mes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 2px 2px 4px #000;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.titol {
+    margin: 20px 10px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #FFF;
+}
+
+p {
+    font-size: 14px;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #CCC;
+}
+ </style>
+</head>
+<body>
+    <div class="calendari">
+        <a id="gener" href="https://leyreperales.github.io/2DG_p14/"><div class="mes">GENER</div></a>
+        <a id="febrer" href="https://altea28.github.io/p14_Febrer_25/"><div class="mes">FEBRER</div></a>
+        <a id="març" href="https://paulaapm.github.io/2DG_p14/"><div class="mes">MARÇ</div></a>
+        <a id="abril" href="https://fuenteskire.github.io/p14_abril25/"><div class="mes">ABRIL</div></a>
+        <a id="maig" href="https://emmapeinado12.github.io/p14_maig_25/"><div class="mes">MAIG</div></a>
+        <a id="juny" href="https://carmonitabby.github.io/p14_juny/"><div class="mes">JUNY</div></a>
+        <a id="juliol" href="https://carmensanchezsanchez.github.io/2DG_p14_juliol2025/"><div class="mes">JULIOL</div></a>
+        <a id="agost" href="https://mariaapons.github.io/2DG_p14_agost2025/"><div class="mes">AGOST</div></a>
+        <a id="setembre" href="https://lucialopezllorca.github.io/p14_setembre25/"><div class="mes">SETEMBRE</div></a>
+        <a id="octubre" href="https://aitanaahidalgo.github.io/2DG_p14/"><div class="mes">OCTUBRE</div></a>
+        <a id="novembre" href="https://zairapastor.github.io/p14_novembre25/"><div class="mes">NOVEMBRE</div></a>
+        <a id="desembre" href="https://arquesm.github.io/p14_desembre25/"><div class="mes">DESEMBRE</div></a>
+    </div>
+    <div class="titol">
+        <h1>CALENDARI 24/25</h1>
+        <p>
+            Per a imprimir una pàgina web, segueix aquests passos senzills: fes clic amb el botó dret del ratolí 
+            en qualsevol lloc de la pàgina que vulgues imprimir. Al menú desplegable que apareixerà, selecciona 
+            l'opció "Imprimir". S'obrirà una vista prèvia d'impressió, on podràs ajustar configuracions com el 
+            disseny, la mida del paper, les pàgines a imprimir i si vols incloure capçaleres o peus de pàgina.
+        </p>
+    </div>
+</body>
+</html>
